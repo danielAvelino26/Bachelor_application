@@ -1,16 +1,25 @@
-# crossplateforme
+# Comment lancer le projet ?
 
-A new Flutter project.
+1. Cloner le projet
 
-## Getting Started
+```bash
+git clone https://github.com/danielAvelino26/Bachelor.git
+```
 
-This project is a starting point for a Flutter application.
+2. Installer les dépendances
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+npm install
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. Build l'application
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+npm run build
+```
+
+4. Run l'application
+
+```bash
+npm run build && npm run start-sw
+```
