@@ -30,7 +30,7 @@ export const NavBar = () => {
 
   const renderCartPreview = () => {
     return (
-      <VStack spacing={4} alignItems="stretch">
+      <VStack spacing={4} alignitems="stretch">
         {state.cart.slice(0, 3).map((product) => (
           <HStack key={product.id} spacing={4}>
             <Text fontSize="sm" fontWeight="bold">
@@ -69,7 +69,7 @@ export const NavBar = () => {
     >
       <Flex justifyContent="space-between">
         <HStack spacing="24px" flex="1">
-          <NavLink to="/" display="flex" alignItems="center">
+          <NavLink to="/" display="flex" alignitems="center">
             <Box
               fontSize="xl"
               fontWeight="bold"
@@ -80,7 +80,7 @@ export const NavBar = () => {
               Accueil
             </Box>
           </NavLink>
-          <NavLink to="/panier" display="flex" alignItems="center">
+          <NavLink to="/panier" display="flex" alignitems="center">
             <Box
               fontSize="xl"
               fontWeight="bold"

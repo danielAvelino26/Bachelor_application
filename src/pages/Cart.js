@@ -69,7 +69,7 @@ export const Cart = () => {
 
           <VStack
             flex="1"
-            alignItems="flex-start"
+            alignitems="flex-start"
             spacing={4}
             mr={{ base: "0", sm: "4" }}
           >
