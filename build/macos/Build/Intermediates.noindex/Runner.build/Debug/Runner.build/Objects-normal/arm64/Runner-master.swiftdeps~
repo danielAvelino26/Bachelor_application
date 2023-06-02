@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "29c167ad900e48e7afddfcd1e77b52af562f87e9878f3bbf2270578457953ee5"
+build_start_time: [1685734382, 236242000]
+build_end_time: [1685734382, 263538000]
+inputs:
+  "/Users/daniel_avelino/Documents/_HEG/Bachelor/Bachelor_application/macos/Flutter/GeneratedPluginRegistrant.swift": !private [1685734370, 205723593]
+  "/Users/daniel_avelino/Documents/_HEG/Bachelor/Bachelor_application/macos/Runner/AppDelegate.swift": !private [1685734145, 289967775]
+  "/Users/daniel_avelino/Documents/_HEG/Bachelor/Bachelor_application/macos/Runner/MainFlutterWindow.swift": !private [1685734145, 292175412]
