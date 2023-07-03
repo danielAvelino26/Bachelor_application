@@ -46,6 +46,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D318651F2A5352EC003E7F75 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE653A2A52EC30008AAED0 /* APIRequest.swift */,
+				D3AE65402A530A37008AAED0 /* Cart.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D31865212A535316003E7F75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE65422A531677008AAED0 /* CartView.swift */,
+				D3AE652E2A52EBDE008AAED0 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D31865222A53532B003E7F75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE653C2A52EDD2008AAED0 /* Product.swift */,
+				D3C130C92A5322CB0054C09B /* CartItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D3AE65202A52EBDE008AAED0 = {
 			isa = PBXGroup;
 			children = (
@@ -65,9 +92,9 @@
 		D3AE652B2A52EBDE008AAED0 /* NativeECommerce */ = {
 			isa = PBXGroup;
 			children = (
-				D3C130C82A5321390054C09B /* Utils */,
-				D3C130C72A5320FD0054C09B /* Views */,
-				D3C130C62A53209D0054C09B /* Models */,
+				D31865222A53532B003E7F75 /* Models */,
+				D31865212A535316003E7F75 /* Views */,
+				D318651F2A5352EC003E7F75 /* Utils */,
 				D3C130C52A53206A0054C09B /* Components */,
 				D3AE652C2A52EBDE008AAED0 /* NativeECommerceApp.swift */,
 				D3AE65302A52EBDF008AAED0 /* Assets.xcassets */,
@@ -91,33 +118,6 @@
 				D3AE653E2A52F96F008AAED0 /* CardProduct.swift */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		D3C130C62A53209D0054C09B /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				D3AE653C2A52EDD2008AAED0 /* Product.swift */,
-				D3C130C92A5322CB0054C09B /* CartItem.swift */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		D3C130C72A5320FD0054C09B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				D3AE65422A531677008AAED0 /* CartView.swift */,
-				D3AE652E2A52EBDE008AAED0 /* ContentView.swift */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		D3C130C82A5321390054C09B /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				D3AE653A2A52EC30008AAED0 /* APIRequest.swift */,
-				D3AE65402A530A37008AAED0 /* Cart.swift */,
-			);
-			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
