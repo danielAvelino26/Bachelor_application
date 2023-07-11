@@ -1,0 +1,4 @@
+#Tue Jul 11 14:14:14 CEST 2023
+base.0=/Users/daniel_avelino/Documents/_HEG/Bachelor/Bachelor_application/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

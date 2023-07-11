@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.crossplateforme">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
    <application
         android:label="crossplateforme"
         android:name="${applicationName}"
