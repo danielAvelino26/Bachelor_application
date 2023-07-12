@@ -20,6 +20,7 @@ class Cart {
   }
 
   void add(Product product) {
+    Stopwatch stopwatch = Stopwatch()..start();
     var item =
         items.firstWhereOrNull((element) => element.product.id == product.id);
 
@@ -29,9 +30,12 @@ class Cart {
       item.quantity++;
     }
     _updateItemCount();
+    print('Cart.add() executed in ${stopwatch.elapsed}');
+    stopwatch.stop();
   }
 
   void remove(Product product) {
+    Stopwatch stopwatch = Stopwatch()..start();
     var item =
         items.firstWhereOrNull((element) => element.product.id == product.id);
 
@@ -43,6 +47,8 @@ class Cart {
       }
     }
     _updateItemCount();
+    print('Cart.remove() executed in ${stopwatch.elapsed}');
+    stopwatch.stop();
   }
 
   double getTotalPrice() {

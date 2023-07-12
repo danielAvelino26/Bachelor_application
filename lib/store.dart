@@ -68,7 +68,10 @@ class Store {
   List<Product> products = [];
 
   Future<void> getProducts() async {
+    Stopwatch stopwatch = Stopwatch()..start();
     products = await fetchProducts();
+    print('getProducts() a pris ${stopwatch.elapsed}');
+    stopwatch.stop();
     update();
   }
 }
