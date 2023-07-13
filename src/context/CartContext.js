@@ -17,6 +17,7 @@ const CartReducer = (state, action) => {
       if (existingProductIndex !== -1) {
         const updatedCart = [...state.cart];
         updatedCart[existingProductIndex].quantity += 1;
+
         return { ...state, cart: updatedCart };
       } else {
         return {

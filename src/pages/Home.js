@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { CardProduct } from "../components/CardProduct";
 import "../App.css";
 import { useQuery } from "react-query";
